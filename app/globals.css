@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Basic global styles to ensure you don't get a white screen */
+html, body, #__next {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-900 text-slate-100;
+}
